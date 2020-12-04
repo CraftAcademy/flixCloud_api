@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
     resources :movies, only: [:index] do
       get 'search', on: :collection
+      get 'image/:id', on: :collection, to: 'movies#image'
     end
   end
 end

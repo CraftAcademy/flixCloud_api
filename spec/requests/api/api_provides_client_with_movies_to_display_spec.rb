@@ -27,7 +27,7 @@ RSpec.describe Api::MoviesController, type: :request do
 
     it 'is expected to have movie poster in \'movies\'' do
       expect(response_json['movies'].third['poster_path'])
-      .to eq "/sp4zXS3x4wHyL8wm8zLioiBrxuR.jpg"
+      .to eq "/api/movies/image/sp4zXS3x4wHyL8wm8zLioiBrxuR.jpg"
     end
   end
 end

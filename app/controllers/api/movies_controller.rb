@@ -1,6 +1,7 @@
 class Api::MoviesController < ApplicationController
   API_KEY = Rails.application.credentials.moviedb[:api_key]
   API_URL = 'https://api.themoviedb.org/3'
+  API_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
 
   before_action :authenticate_user!, only: %i[search]
 
@@ -44,6 +45,10 @@ class Api::MoviesController < ApplicationController
     end
   end
 
+  def image
+    redirect_to image_url(params[:id])
+  end
+
   private
 
   def sanitized_movies(body)
@@ -57,7 +62,15 @@ class Api::MoviesController < ApplicationController
     {
       title: movie['title'],
       release_date: movie['release_date'],
-      poster_path: movie['poster_path']
+      poster_path: image_path(movie['poster_path'])
     }
+  end
+
+  def image_path(path)
+    "/api/movies/image#{path}"
+  end
+
+  def image_url(id)
+    "#{API_IMAGE_URL}/#{id}.jpg"
   end
 end
