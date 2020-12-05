@@ -1,5 +1,4 @@
 class Api::SubscriptionsController < ApplicationController
-  # STRIPE_URL = "https://api.stripe.com/v1/customers"
   before_action :authenticate_user!
 
   def create
@@ -26,7 +25,7 @@ class Api::SubscriptionsController < ApplicationController
       amount: 100,
       currency: 'sek'
     )
-    
+
     charge.paid
     
   end
