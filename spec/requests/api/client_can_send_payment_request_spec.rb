@@ -4,6 +4,7 @@ RSpec.describe 'POST /api/subscriptions', type: :request do
     let!(:user_headers) { user.create_new_auth_token }
 
   before do
+
     post '/api/subscriptions',
       params: { 
         stripetoken: "12345"
@@ -16,7 +17,8 @@ RSpec.describe 'POST /api/subscriptions', type: :request do
   end
 
   it 'is expected to return a success message' do
-    expect(response_json)['message'].to eq 'Thank you for your payment, you are now a subscriber'
+    pp 'adfsd', response_json
+    expect(response_json['message']).to eq 'Thank you for your payment, you are now a subscriber!'
   end
 
   it 'is expected to turn user into subscriber' do

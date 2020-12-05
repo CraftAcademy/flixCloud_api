@@ -23,6 +23,7 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'factory_bot_rails'
   gem 'webmock'
+  gem 'stripe-ruby-mock', require: 'stripe_mock'
 end
 
 group :development do
