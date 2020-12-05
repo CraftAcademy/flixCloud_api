@@ -30,6 +30,9 @@ module FlixcloudApi
       generate.request_specs false
     end
 
+    config.stripe.publishable_key = Rails.application.credentials.stripe[:publishable_key]
+    config.stripe.secret_key = Rails.application.credentials.stripe[:secret_key]
+
     config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
