@@ -4,7 +4,7 @@ RSpec.describe 'POST /api/subscriptions', type: :request do
     let!(:user_headers) { user.create_new_auth_token }
 
   before do
-    post '/api/api/subscriptions',
+    post '/api/subscriptions',
       params: { 
         stripetoken: "12345"
       },

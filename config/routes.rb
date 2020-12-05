@@ -5,5 +5,6 @@ Rails.application.routes.draw do
       get 'search', on: :collection
       get 'image/:id', on: :collection, to: 'movies#image'
     end
+    resources :subscriptions, only: [:create]
   end
 end
