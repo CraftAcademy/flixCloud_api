@@ -3,10 +3,14 @@ class Api::SubscriptionsController < ApplicationController
   before_action :authenticate_user!
 
   def create
-    # payment_status = perform_payment
-    current_user.update_attribute(:subscriber, true)
-    render json: { message: "Thank you for your payment, you are now a subscriber!"}
-
+    payment_status = perform_payment
+    
+    if payment_status
+      current_user.update_attribute(:subscriber, true)
+      render json: { message: "Thank you for your payment, you are now a subscriber!", paid: true}
+    else
+      render json: { message: "Something went wrong, please try again later"}, status: 422  
+    end
   end
 
   private
@@ -22,8 +26,8 @@ class Api::SubscriptionsController < ApplicationController
       amount: 100,
       currency: 'sek'
     )
-
-    charge
+    
+    charge.paid
     
   end
 end

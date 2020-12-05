@@ -7,7 +7,7 @@ RSpec.describe 'POST /api/subscriptions', type: :request do
 
     post '/api/subscriptions',
       params: { 
-        stripetoken: "12345"
+        stripetoken: StripeMock.create_test_helper.generate_card_token
       },
       headers: user_headers
   end
@@ -17,12 +17,11 @@ RSpec.describe 'POST /api/subscriptions', type: :request do
   end
 
   it 'is expected to return a success message' do
-    pp 'adfsd', response_json
     expect(response_json['message']).to eq 'Thank you for your payment, you are now a subscriber!'
   end
 
   it 'is expected to turn user into subscriber' do
-    expect(user.subscriber).to eq true
+    expect(user.reload.subscriber).to eq true
   end
 end
 end
