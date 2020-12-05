@@ -6,7 +6,9 @@ require 'webmock/rspec'
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 
-abort('The Rails environment is running in production mode!') if Rails.env.production?
+if Rails.env.production?
+  abort('The Rails environment is running in production mode!')
+end
 require 'spec_helper'
 require 'rspec/rails'
 
@@ -25,15 +27,20 @@ RSpec.configure do |config|
   config.include ResponseJSON
   config.before(:each) do
     fixture_file = File.open("#{fixture_path}/movie_titles.json").read
-    stub_request(:get, "https://api.themoviedb.org/3/discover/movie?api_key=#{Rails.application.credentials.moviedb[:api_key]}&include_adult=false&language=en-US&page=1&sort_by=popularity.desc").
-      with(
-        headers: {
-        'Accept'=>'*/*',
-        'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-        'Host'=>'api.themoviedb.org',
-        'User-Agent'=>'rest-client/2.1.0 (linux-gnu x86_64) ruby/2.5.1p57'
-        }).
-      to_return(status: 200, body: fixture_file, headers: {})
-
+    stub_request(
+      :get,
+      "https://api.themoviedb.org/3/discover/movie?api_key=#{
+        Rails.application.credentials.moviedb[:api_key]
+      }&include_adult=false&language=en-US&page=1&sort_by=popularity.desc"
+    ).to_return(status: 200, body: fixture_file, headers: {})
+    # .with(
+    #   headers: {
+    #     'Accept' => '*/*',
+    #     'Accept-Encoding' => 'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+    #     'Host' => 'api.themoviedb.org',
+    #     'User-Agent' => 'rest-client/2.1.0 (linux-gnu x86_64) ruby/2.5.1p57'
+    #   }
+    # )
+    
   end
 end

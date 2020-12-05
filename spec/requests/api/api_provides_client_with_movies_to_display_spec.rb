@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 RSpec.describe Api::MoviesController, type: :request do
-  let!(:movies) { 5.times { create(:movie) } }
   describe 'successfully GET a collection of movies' do
 
     before do
@@ -12,7 +11,7 @@ RSpec.describe Api::MoviesController, type: :request do
       expect(response).to have_http_status 200
     end
 
-    it 'is expected to return five movies' do
+    it 'is expected to return twenty movies' do
       expect(response_json['movies'].count).to eq 20
     end
 
@@ -28,7 +27,7 @@ RSpec.describe Api::MoviesController, type: :request do
 
     it 'is expected to have movie poster in \'movies\'' do
       expect(response_json['movies'].third['poster_path'])
-      .to eq "/sp4zXS3x4wHyL8wm8zLioiBrxuR.jpg"
+      .to eq "/api/movies/image/sp4zXS3x4wHyL8wm8zLioiBrxuR.jpg"
     end
   end
 end
