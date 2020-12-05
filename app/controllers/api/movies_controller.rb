@@ -3,7 +3,7 @@ class Api::MoviesController < ApplicationController
   API_URL = 'https://api.themoviedb.org/3'
   API_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
 
-  before_action :authenticate_user!, only: %i[search]
+  before_action :authenticate_user!, only: [:search]
 
   def index
     result =
