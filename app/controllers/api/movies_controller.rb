@@ -67,7 +67,7 @@ class Api::MoviesController < ApplicationController
   end
 
   def image_path(path)
-    "/api/movies/image#{path}"
+    "/movies/image#{path}"
   end
 
   def image_url(id)
