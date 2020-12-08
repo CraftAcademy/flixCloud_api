@@ -1,0 +1,397 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/5846jHODKbja38USbFcXgOnsfqb.jpg",
+      "genre_ids": [
+        10751,
+        14,
+        12
+      ],
+      "id": 654028,
+      "original_language": "en",
+      "original_title": "The Christmas Chronicles: Part Two",
+      "overview": "Kate Pierce is reluctantly spending Christmas with her mom’s new boyfriend and his son Jack. But when the North Pole and Christmas are threatened to be destroyed, Kate and Jack are unexpectedly pulled into a new adventure with Santa Claus.",
+      "popularity": 703.919,
+      "poster_path": "/6sG0kbEvAi3RRLcGGU5h8l3qAPa.jpg",
+      "release_date": "2020-11-18",
+      "title": "The Christmas Chronicles: Part Two",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 156
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/q9ZLjqti3UTt5ZC3qQMZhRNueGc.jpg",
+      "genre_ids": [
+        35,
+        10751,
+        10749
+      ],
+      "id": 738646,
+      "original_language": "en",
+      "original_title": "Operation Christmas Drop",
+      "overview": "While gathering evidence to support closing a tropical U.S. Air Force base, a congressional aide warms to its generous captain.",
+      "popularity": 152.949,
+      "poster_path": "/ijrXKkb4eeanJOqFjGB7WRZVrZO.jpg",
+      "release_date": "2020-11-05",
+      "title": "Operation Christmas Drop",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 233
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eo6pahstCYRUm0Lk4MORmfCs2SH.jpg",
+      "genre_ids": [
+        16
+      ],
+      "id": 752455,
+      "original_language": "en",
+      "original_title": "Angela's Christmas Wish",
+      "overview": "A determined Angela makes a wish to reunite her family in time for Christmas, then launches a plan to find her way from Ireland to Australia.",
+      "popularity": 86.915,
+      "poster_path": "/eu747ko823mktL3ygo7ohdZznP7.jpg",
+      "release_date": "2020-12-01",
+      "title": "Angela's Christmas Wish",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 9
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eZ9wYTk9Gy2zYEv8rhRG3IoPuXG.jpg",
+      "genre_ids": [
+        35,
+        10749,
+        18
+      ],
+      "id": 549053,
+      "original_language": "en",
+      "original_title": "Last Christmas",
+      "overview": "Kate is a young woman who has a habit of making bad decisions, and her last date with disaster occurs after she accepts work as Santa's elf for a department store. However, after she meets Tom there, her life takes a new turn.",
+      "popularity": 55.728,
+      "poster_path": "/mDeES2L2lhW8rJSyAKZMuKqZM7e.jpg",
+      "release_date": "2019-11-07",
+      "title": "Last Christmas",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 1231
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6C7ZGYeR8QpT3X6C2RFEu6yiSKK.jpg",
+      "genre_ids": [
+        10751,
+        14,
+        10402
+      ],
+      "id": 622855,
+      "original_language": "en",
+      "original_title": "Jingle Jangle: A Christmas Journey",
+      "overview": "An imaginary world comes to life in a holiday tale of an eccentric toymaker, his adventurous granddaughter, and a magical invention that has the power to change their lives forever.",
+      "popularity": 351.652,
+      "poster_path": "/5RbyHIVydD3Krmec1LlUV7rRjet.jpg",
+      "release_date": "2020-11-06",
+      "title": "Jingle Jangle: A Christmas Journey",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 168
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/brENMyyhk13WLzKHBK20rBKx0u7.jpg",
+      "genre_ids": [
+        35,
+        12,
+        10751,
+        14
+      ],
+      "id": 527435,
+      "original_language": "en",
+      "original_title": "The Christmas Chronicles",
+      "overview": "Siblings Kate and Teddy try to prove Santa Claus is real, but when they accidentally cause his sleigh to crash, they have to save Christmas.",
+      "popularity": 106.303,
+      "poster_path": "/5Il2EMSF2KecrUKZPuen6BZmaCP.jpg",
+      "release_date": "2018-11-22",
+      "title": "The Christmas Chronicles",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 1195
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/41ocXijKgjMS17QXydzKdwCaTsU.jpg",
+      "genre_ids": [
+        10751,
+        16
+      ],
+      "id": 14813,
+      "original_language": "en",
+      "original_title": "Mickey's Christmas Carol",
+      "overview": "It is an adaptation of the Charles Dickens classic A Christmas Carol, featuring Scrooge McDuck as his namesake and inspiration Ebenezer Scrooge and Mickey Mouse as Bob Cratchit. This film was based on a 1972 audio musical entitled Disney's A Christmas Carol. It is a twenty-four minute animated short film produced by Walt Disney Productions as an accompaniment to a re-release of The Rescuers.",
+      "popularity": 25.778,
+      "poster_path": "/tO9ETMTMJQ1K43riZ51W1G5NHig.jpg",
+      "release_date": "1983-10-19",
+      "title": "Mickey's Christmas Carol",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 551
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8uj9vrZtZHJKIyYEKH6DuU0B6Sr.jpg",
+      "genre_ids": [
+        16,
+        10751
+      ],
+      "id": 563710,
+      "original_language": "en",
+      "original_title": "Angela's Christmas",
+      "overview": "A trip to church with her family on Christmas Eve gives young Angela an extraordinary idea. A heartwarming tale based on a story by Frank McCourt.",
+      "popularity": 36.395,
+      "poster_path": "/htzoW7Cu7Hqd0xofflI7bCKRh2C.jpg",
+      "release_date": "2017-12-02",
+      "title": "Angela's Christmas",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 152
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/Awx3ld6kRqq0iMKPPCUTt1RidCn.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        18,
+        14
+      ],
+      "id": 17979,
+      "original_language": "en",
+      "original_title": "A Christmas Carol",
+      "overview": "Miser Ebenezer Scrooge is awakened on Christmas Eve by spirits who reveal to him his own miserable existence, what opportunities he wasted in his youth, his current cruelties, and the dire fate that awaits him if he does not change his ways. Scrooge is faced with his own story of growing bitterness and meanness, and must decide what his own future will hold: death or redemption.",
+      "popularity": 46.619,
+      "poster_path": "/goHDZUnqZJ7FN4h48Qh6MzJNExl.jpg",
+      "release_date": "2009-11-04",
+      "title": "A Christmas Carol",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 3224
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4dtbvoAaqiM3fVwzdffLxUdAiY6.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        14
+      ],
+      "id": 8871,
+      "original_language": "en",
+      "original_title": "How the Grinch Stole Christmas",
+      "overview": "Inside a snowflake exists the magical land of Whoville. In Whoville, live the Whos, an almost mutated sort of Munchkin-like people. All the Whos love Christmas, yet just outside of their beloved Whoville lives the Grinch. The Grinch is a nasty creature that hates Christmas, and plots to steal it away from the Whos, whom he equally abhors. Yet a small child, Cindy Lou Who, decides to try befriending the Grinch.",
+      "popularity": 117.351,
+      "poster_path": "/6B7cxxn1A4zqFFmJC3iT99GDWWm.jpg",
+      "release_date": "2000-11-17",
+      "title": "How the Grinch Stole Christmas",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 4812
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cHL5mYfP5FnjsxbWhe25SnaZkLA.jpg",
+      "genre_ids": [
+        10770
+      ],
+      "id": 744945,
+      "original_language": "en",
+      "original_title": "Spotlight on Christmas",
+      "overview": "Dumped two weeks before Christmas, actress Olivia O’Hara (Tori Anderson) secretly returns to her tiny hometown to hide out, eat cookies and avoid the press. What she doesn’t expect is to be faced with the family she left behind, meeting a charming new guy Casey Rawlins (Victor Zinck Jr.), and a noisy reporter following her every move. Completely overwhelmed, Olivia contemplates running away from her life once again but with a new found confidence and freedom, Olivia bravely steps up to take the starring role in her own life, realizing that home is where the heart is and that she deserves to be loved for exactly who she really is.",
+      "popularity": 67.218,
+      "poster_path": "/wtIsbd1t4lK8RmqASwLtMxuCQLB.jpg",
+      "release_date": "2020-12-04",
+      "title": "Spotlight on Christmas",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ymwyqmIee4RwdvZP7R14OsmGSRG.jpg",
+      "genre_ids": [
+        35,
+        10749
+      ],
+      "id": 611207,
+      "original_language": "en",
+      "original_title": "The Knight Before Christmas",
+      "overview": "A medieval English knight is magically transported to present day where he ends up falling for a high school science teacher.",
+      "popularity": 57.577,
+      "poster_path": "/ivymBQYzYqZoLhvgYg77gSzXKsA.jpg",
+      "release_date": "2019-11-21",
+      "title": "The Knight Before Christmas",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 713
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8TNf3mbv4Wv9t6KMkxLUkCrB6SJ.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 5825,
+      "original_language": "en",
+      "original_title": "National Lampoon's Christmas Vacation",
+      "overview": "It's Christmas time and the Griswolds are preparing for a family seasonal celebration, but things never run smoothly for Clark, his wife Ellen and their two kids. Clark's continual bad luck is worsened by his obnoxious family guests, but he manages to keep going knowing that his Christmas bonus is due soon.",
+      "popularity": 42.247,
+      "poster_path": "/dm2KpvwzfyPduUK1yBATxPveSgd.jpg",
+      "release_date": "1989-11-30",
+      "title": "National Lampoon's Christmas Vacation",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 1418
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18,
+        16
+      ],
+      "id": 572488,
+      "original_language": "en",
+      "original_title": "A Christmas Carol",
+      "overview": "The radical new take on Dickens’ classic seeks both to exhume the original story’s gritty commentary on social inequality and the corrupting influence of greed, and to breathe new life into the lyricism of the original text by setting its scenes to extraordinary tableaux of modern dance.",
+      "popularity": 38.553,
+      "poster_path": "/mcKDuxaFzKM3dajgyOT7wwZIWd.jpg",
+      "release_date": "2020-12-04",
+      "title": "A Christmas Carol",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/t4WQ36MAZf1sgiPKocTa0KBGBKI.jpg",
+      "genre_ids": [
+        18,
+        16,
+        10751,
+        35
+      ],
+      "id": 51052,
+      "original_language": "en",
+      "original_title": "Arthur Christmas",
+      "overview": "Each Christmas, Santa and his vast army of highly trained elves produce gifts and distribute them around the world in one night. However, when one of 600 million children to receive a gift from Santa on Christmas Eve is missed, it is deemed ‘acceptable’ to all but one—Arthur. Arthur Claus is Santa’s misfit son who executes an unauthorised rookie mission to get the last present half way around the globe before dawn on Christmas morning.",
+      "popularity": 23.027,
+      "poster_path": "/brELZkSbkLrcCXJ0xt5hQUMXhut.jpg",
+      "release_date": "2011-11-10",
+      "title": "Arthur Christmas",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 903
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/l1V0H5mKHNZ3XyRXGJk1qtXnevU.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 9656,
+      "original_language": "en",
+      "original_title": "Black Christmas",
+      "overview": "An escaped maniac returns to his childhood home on Christmas Eve, which is now a sorority house, and begins to murder the sorority sisters one by one. A remake of the 1974 horror movie, Black Christmas.",
+      "popularity": 17.701,
+      "poster_path": "/gTvPGnwiOzWbdMk8R0Ts4ZSJbXZ.jpg",
+      "release_date": "2006-12-15",
+      "title": "Black Christmas",
+      "video": false,
+      "vote_average": 4.9,
+      "vote_count": 291
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10749,
+        35,
+        18
+      ],
+      "id": 760556,
+      "original_language": "en",
+      "original_title": "Lost at Christmas",
+      "overview": "Set in the remote Scottish town of Fort William on Christmas Eve, when life is turned upside down for Jen and Rob. Suddenly finding themselves heartbroken, single and stranded, they team up to try and reach home 100 miles away to be with their families. \"Borrowing\" Jen’s now ex-boyfriend’s classic car, the pair hit the road, but it’s not long before the weather turns for the worse forcing them to continue their journey on foot.",
+      "popularity": 37.32,
+      "poster_path": "/831ExOb2cmTvE71bY3oCrJDKdr5.jpg",
+      "release_date": "2020-12-04",
+      "title": "Lost at Christmas",
+      "video": false,
+      "vote_average": 6.2,
+      "vote_count": 5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/16lk65YfrDFIr6evkWRjSeOOSws.jpg",
+      "genre_ids": [
+        14,
+        16,
+        10751
+      ],
+      "id": 9479,
+      "original_language": "en",
+      "original_title": "The Nightmare Before Christmas",
+      "overview": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.",
+      "popularity": 40.009,
+      "poster_path": "/e4pZZR1SZByveyWczQBmiXJ0lXP.jpg",
+      "release_date": "1993-10-09",
+      "title": "The Nightmare Before Christmas",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 6311
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/q41owjzvsMlxbn0SXFbkrGvuCN7.jpg",
+      "genre_ids": [
+        10749,
+        10770
+      ],
+      "id": 369054,
+      "original_language": "en",
+      "original_title": "Christmas Land",
+      "overview": "Jules has just inherited a quaint magical Christmas-themed village and Christmas tree farm bequeathed her by her grandmother. She plans to sell it and use the profits to buy her dream home in New York City. But the longer Jules stays on the farm and the more she learns how important Christmas Land has been to so many families, the more Jules starts to question her motives to sell.",
+      "popularity": 10.715,
+      "poster_path": "/hrse1JPfWud4sconyzJgH3nXE8.jpg",
+      "release_date": "2015-12-20",
+      "title": "Christmas Land",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 51
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/snWw3PIFQsmjQuCuVRjyGr1TWWX.jpg",
+      "genre_ids": [
+        10770,
+        10749
+      ],
+      "id": 746048,
+      "original_language": "en",
+      "original_title": "Christmas She Wrote",
+      "overview": "When Kayleigh, a romance writer, has her column cancelled right before Christmas, she heads home to reconnect with her family. Kayleigh gets an unexpected visit from the man who cancelled her column who fights not only to bring her back to the publisher but also for her heart.",
+      "popularity": 31.692,
+      "poster_path": "/8kAp3J46pwJCzFQYZvjFLSNhGqx.jpg",
+      "release_date": "2020-12-06",
+      "title": "Christmas She Wrote",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    }
+  ],
+  "total_pages": 111,
+  "total_results": 2214
+}
